@@ -1,0 +1,13 @@
+{
+    "printWidth": 60,
+    "tabWidth": 4,
+    "useTabs": false,
+    "singleQuote": false,
+    "endOfLine": "auto",
+    "plugins": [
+        "prettier-plugin-astro",
+        "prettier-plugin-svelte",
+        "prettier-plugin-css-order",
+        "prettier-plugin-tailwindcss"
+    ]
+}

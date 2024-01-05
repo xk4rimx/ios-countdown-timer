@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Body from "../components/Body.svelte";
+---
+
+<head>
+    <title>Timer</title>
+    <meta
+        name="description"
+        content="An iOS timer mockup."
+    />
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fdn.fontcdn.ir" />
+    <link rel="preconnect" href="https://v1.fontapi.ir" />
+    <link
+        href="https://v1.fontapi.ir/css/SFProDisplay:100;200;300;400;500;600;700;800;900?d=swap"
+        rel="stylesheet"
+        rel="preload"
+        as="style"
+    />
+</head>
+
+<Layout>
+    <Body client:load />
+</Layout>
